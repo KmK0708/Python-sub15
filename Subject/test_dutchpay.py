@@ -47,9 +47,7 @@ if len(food_people) > 0:
         elif name == "백":
             백 += share
 
-# ──────────────────────────────
 # 바 계산
-# ──────────────────────────────
 bar_people = []  # 바에 간 사람 저장
 for name in people:
     if people_inout[name]["바"] == True:
@@ -68,9 +66,8 @@ if len(bar_people) > 0:
         elif name == "백":
             백 += share
 
-# ──────────────────────────────
+
 # 카페 계산
-# ──────────────────────────────
 cafe_people = []  # 카페에 간 사람 저장
 for name in people:
     if people_inout[name]["카페"] == True:
