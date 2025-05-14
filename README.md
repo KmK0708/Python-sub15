@@ -21,3 +21,18 @@ blackjack A + 10,k,j,q 로 21을 이루면 게임 종료 (승리)<br>
 ### test_cafemenu
 카페 음료 총 가격 계산기<br>
 https://www.canva.com/design/DAGkoJEDMVQ/jpfHDFnFjoXXHnjTViaqEw/edit?utm_content=DAGkoJEDMVQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+### test_BasketSaleCalc.py
+마트에서 장 볼 때, 어떤 상품은 할인, 어떤건 적용 x
+할인 조건에 따라 지불해야하는 총 금액 계산 프로그램
+
+### test_MatchingNumber.py
+정수 n이 주어졌을 때, 1부터 n까지 숫자 중에서 3의 배수 이면서 2의 배수가 아닌 수들만 리스트에 담아 반환하는 함수 작성.
+
+### test_cardnumber.py
+다음 조건에 맞게 카드 번호 생성
+1. 숫자 4,5 또는 6으로 시작
+2. 총 16자리 숫자여야함.
+3. 숫자로만 구성되야함.
+4. 4자리씩 하이픈으로만 나누어야함( - ) 다른 기호 불가능.
+5. 같은 숫자 4번이상 반복 불가.
